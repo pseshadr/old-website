@@ -15,7 +15,12 @@ body {
   padding: 10px;
 }
 
-
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
 
 html {
   scroll-behavior: smooth;
@@ -42,6 +47,9 @@ img {
   border-radius: 8px;
 }
 
+div.a {
+  font-size: 9px;
+}
 
 
 * {box-sizing:border-box}
