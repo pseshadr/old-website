@@ -6,7 +6,7 @@
 a {
   text-decoration: none;
   color: #FFFFFF;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .footer {
@@ -239,11 +239,11 @@ a {
   border-right: none;
 }
 
-a {
+aaa {
   text-decoration: none;
   color: #B41C64;
   text-decoration-color: red;
-  font-weight: bold
+  font-size: 10px;
 }
 
 @media (max-width: 767.98px) {
