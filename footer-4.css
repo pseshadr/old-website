@@ -59,6 +59,7 @@ a {
   height: 2px;
   left: 0;
   bottom: 0;
+  font-size: 12px;
   background: #eeeeee;
 }
 
@@ -74,7 +75,7 @@ a {
   padding: 6px 0;
   text-align: center;
   color: #FFFFFF;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 150%;
   font-weight: 500;
   letter-spacing: 0.2em;
@@ -99,7 +100,7 @@ a {
 
 .footer .footer-contact i {
   margin-right: 10px;
-  font-size: 16px;
+  font-size: 10px;
   color: #FFFFFF;
 }
 
@@ -114,8 +115,9 @@ a {
 .footer .footer-links a {
   display: block;
   margin-bottom: 6px;
-  padding-left: 15px;
+  padding-left: 10px;
   color: #FFFFFF;
+  linline-height: 150%;
 }
 
 .footer .footer-links a:last-child {
