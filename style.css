@@ -1,12 +1,19 @@
 body {
   font-family: 'Raleway';
-  font-size: 18px;
+  font-size: 20px;
   font-style:normal;
   font-weight:normal;
   letter-spacing: 0.05em;
   line-height: 150%;
   color: #424242;
   text-decoration: none;
+}
+
+.image-list-small .details h3 a {
+  color: #f2f2f2;
+  font-size: 8px;
+  color: #424242;
+
 }
 
 .content {
@@ -37,7 +44,7 @@ html {
 
 h4 {
   font-family: 'Raleway';
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;
   letter-spacing: 0.2em;
   color: #424242;
@@ -175,6 +182,7 @@ div.a {
   width: 24%;
   height: auto;
   min-width: 300px;
+  vertical-align: middle;
 }
 
 .responsivesingle {
@@ -182,6 +190,18 @@ div.a {
   height: auto;
 }
 
+
+.imagecaption {
+  float: left;
+  display: block;
+  color: #424242;
+  text-decoration: none;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  font-weight: 500;
+  padding: 8px 10px;
+  line-height: 120%;
+}
 
 .topnav a {
   float: left;
@@ -212,12 +232,62 @@ div.a {
   display: none;
 }
 
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column_type_2 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+  .column_type_2 {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
     color: black;
+  }
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
   }
 }
 
